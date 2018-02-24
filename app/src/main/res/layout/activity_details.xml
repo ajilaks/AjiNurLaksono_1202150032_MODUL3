@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.oji.myapplication.Details">
+
+    <ImageView
+        android:id="@+id/detailGambar"
+        android:layout_width="wrap_content"
+        android:layout_height="97dp"
+        android:src="@drawable/nestle" />
+    <TextView
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="15dp"
+        android:id="@+id/detailNama"
+        android:layout_gravity="center"
+        android:text="ASDAS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="2" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <TextView
+        android:id="@+id/detailDeskripsi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/isiBotol"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:src="@drawable/img_isi" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="plus"
+        android:text="+"
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/liter"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dummy"/>
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="minus"
+        android:text="-"
+        android:textSize="25dp" />
+</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+
+    <string name="nasgor">Nasi, Telur, Cinta</string>
+    <string name="capcay">Sayuran, Bumbu temago, Telur</string>
+    <string name="miegoreng">Mie jawa, Telur, Sosis, Sayur</string>
+    <string name="nasimawut">Nasi, Mie Goreng, Daging/Ayam, Telur</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="merk_deskripsi">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et enim dui. Nunc felis massa, rutrum a quam ac, consequat volutpat ipsum. Donec feugiat scelerisque velit, id fermentum magna malesuada et. Aenean pulvinar, quam vel fringilla tincidunt, dolor magna vulputate est, et consequat sem lacus sit amet tortor. Etiam eu magna leo. Duis nec lorem ac augue mollis semper. Praesent ultricies vitae est quis efficitur. Curabitur tempus elit sed pretium faucibus. Donec sodales laoreet ante vel dignissim. Donec est lacus, volutpat non malesuada at, sagittis vel enim.t</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et enim dui. Nunc felis massa, rutrum a quam ac, consequat volutpat ipsum. Donec feugiat scelerisque velit, id fermentum magna malesuada et. Aenean pulvinar, quam vel fringilla tincidunt, dolor magna vulputate est, et consequat sem lacus sit amet tortor. Etiam eu magna leo. Duis nec lorem ac augue mollis semper. Praesent ultricies vitae est quis efficitur. Curabitur tempus elit sed pretium faucibus. Donec sodales laoreet ante vel dignissim. Donec est lacus, volutpat non malesuada at, sagittis vel enim.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et enim dui. Nunc felis massa, rutrum a quam ac, consequat volutpat ipsum. Donec feugiat scelerisque velit, id fermentum magna malesuada et. Aenean pulvinar, quam vel fringilla tincidunt, dolor magna vulputate est, et consequat sem lacus sit amet tortor. Etiam eu magna leo. Duis nec lorem ac augue mollis semper. Praesent ultricies vitae est quis efficitur. Curabitur tempus elit sed pretium faucibus. Donec sodales laoreet ante vel dignissim. Donec est lacus, volutpat non malesuada at, sagittis vel enim.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et enim dui. Nunc felis massa, rutrum a quam ac, consequat volutpat ipsum. Donec feugiat scelerisque velit, id fermentum magna malesuada et. Aenean pulvinar, quam vel fringilla tincidunt, dolor magna vulputate est, et consequat sem lacus sit amet tortor. Etiam eu magna leo. Duis nec lorem ac augue mollis semper. Praesent ultricies vitae est quis efficitur. Curabitur tempus elit sed pretium faucibus. Donec sodales laoreet ante vel dignissim. Donec est lacus, volutpat non malesuada at, sagittis vel enim.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et enim dui. Nunc felis massa, rutrum a quam ac, consequat volutpat ipsum. Donec feugiat scelerisque velit, id fermentum magna malesuada et. Aenean pulvinar, quam vel fringilla tincidunt, dolor magna vulputate est, et consequat sem lacus sit amet tortor. Etiam eu magna leo. Duis nec lorem ac augue mollis semper. Praesent ultricies vitae est quis efficitur. Curabitur tempus elit sed pretium faucibus. Donec sodales laoreet ante vel dignissim. Donec est lacus, volutpat non malesuada at, sagittis vel enim.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et enim dui. Nunc felis massa, rutrum a quam ac, consequat volutpat ipsum. Donec feugiat scelerisque velit, id fermentum magna malesuada et. Aenean pulvinar, quam vel fringilla tincidunt, dolor magna vulputate est, et consequat sem lacus sit amet tortor. Etiam eu magna leo. Duis nec lorem ac augue mollis semper. Praesent ultricies vitae est quis efficitur. Curabitur tempus elit sed pretium faucibus. Donec sodales laoreet ante vel dignissim. Donec est lacus, volutpat non malesuada at, sagittis vel enim.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et enim dui. Nunc felis massa, rutrum a quam ac, consequat volutpat ipsum. Donec feugiat scelerisque velit, id fermentum magna malesuada et. Aenean pulvinar, quam vel fringilla tincidunt, dolor magna vulputate est, et consequat sem lacus sit amet tortor. Etiam eu magna leo. Duis nec lorem ac augue mollis semper. Praesent ultricies vitae est quis efficitur. Curabitur tempus elit sed pretium faucibus. Donec sodales laoreet ante vel dignissim. Donec est lacus, volutpat non malesuada at, sagittis vel enim.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et enim dui. Nunc felis massa, rutrum a quam ac, consequat volutpat ipsum. Donec feugiat scelerisque velit, id fermentum magna malesuada et. Aenean pulvinar, quam vel fringilla tincidunt, dolor magna vulputate est, et consequat sem lacus sit amet tortor. Etiam eu magna leo. Duis nec lorem ac augue mollis semper. Praesent ultricies vitae est quis efficitur. Curabitur tempus elit sed pretium faucibus. Donec sodales laoreet ante vel dignissim. Donec est lacus, volutpat non malesuada at, sagittis vel enim.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et enim dui. Nunc felis massa, rutrum a quam ac, consequat volutpat ipsum. Donec feugiat scelerisque velit, id fermentum magna malesuada et. Aenean pulvinar, quam vel fringilla tincidunt, dolor magna vulputate est, et consequat sem lacus sit amet tortor. Etiam eu magna leo. Duis nec lorem ac augue mollis semper. Praesent ultricies vitae est quis efficitur. Curabitur tempus elit sed pretium faucibus. Donec sodales laoreet ante vel dignissim. Donec est lacus, volutpat non malesuada at, sagittis vel enim.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et enim dui. Nunc felis massa, rutrum a quam ac, consequat volutpat ipsum. Donec feugiat scelerisque velit, id fermentum magna malesuada et. Aenean pulvinar, quam vel fringilla tincidunt, dolor magna vulputate est, et consequat sem lacus sit amet tortor. Etiam eu magna leo. Duis nec lorem ac augue mollis semper. Praesent ultricies vitae est quis efficitur. Curabitur tempus elit sed pretium faucibus. Donec sodales laoreet ante vel dignissim. Donec est lacus, volutpat non malesuada at, sagittis vel enim.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et enim dui. Nunc felis massa, rutrum a quam ac, consequat volutpat ipsum. Donec feugiat scelerisque velit, id fermentum magna malesuada et. Aenean pulvinar, quam vel fringilla tincidunt, dolor magna vulputate est, et consequat sem lacus sit amet tortor. Etiam eu magna leo. Duis nec lorem ac augue mollis semper. Praesent ultricies vitae est quis efficitur. Curabitur tempus elit sed pretium faucibus. Donec sodales laoreet ante vel dignissim. Donec est lacus, volutpat non malesuada at, sagittis vel enim.</item>
+
+    </string-array>
+    <string-array name="merk_tittle">
+        <item>Aqua</item>
+        <item>Pristine</item>
+        <item>Le Minerale</item>
+        <item>Cleo</item>
+        <item>Amidis</item>
+        <item>Ades</item>
+        <item>Club</item>
+        <item>Equil</item>
+        <item>Evian</item>
+        <item>Nestle</item>
+        <item>Vit</item>
+
+    </string-array>
+    <array name="sports_images">
+        <item>@drawable/aqua</item>
+        <item>@drawable/pristine</item>
+        <item>@drawable/leminerale</item>
+        <item>@drawable/cleo</item>
+        <item>@drawable/amidis</item>
+        <item>@drawable/ades</item>
+        <item>@drawable/club</item>
+        <item>@drawable/equil</item>
+        <item>@drawable/evian</item>
+        <item>@drawable/nestle</item>
+        <item>@drawable/vit</item>
+    </array>
+
+    <string-array name="details">
+        <item>Aqua Minuman Favorit</item>
+        <item>Pristine Minuman segar</item>
+        <item>Le Minerale Bermineral</item>
+        <item>Cleo Minuman Para Idol</item>
+        <item>Amidis Favirite anak muda</item>
+        <item>Ades Segar berenergi</item>
+        <item>Club Untuk yang berani</item>
+        <item>Equil untuk masa depan</item>
+        <item>Evian untuk yang berkeluarga</item>
+        <item>Nestle yang beriman</item>
+        <item>Vit untuk yang sehat</item>
+    </string-array>
+</resources>
