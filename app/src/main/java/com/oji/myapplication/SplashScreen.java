@@ -10,12 +10,12 @@ public class SplashScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash_screen);
+        setContentView(R.layout.activity_splash_screen);    //menggunakan thread untuk membuat splash screen
         new Handler().postDelayed(new Runnable() {
             @Override
-            public void run() {
+            public void run() {                //parameter intent
                 startActivity(new Intent(SplashScreen.this,Login.class));
             }
-        },2000);
+        },2000);        //parameter untuk detik milisecond
     }
 }

@@ -36,13 +36,13 @@ public class Details extends AppCompatActivity {
 
 
 
-        isiBotol = (ImageView) findViewById(R.id.isiBotol);
+        isiBotol = (ImageView) findViewById(R.id.isiBotol); //menginisaisi konten yang ada pada layout
         liter = (TextView) findViewById(R.id.liter);
-        liter();
+        liter();        //method untuk leveldrawable
     }
 
     public void liter(){
-        switch (level){
+        switch (level){     //ketika level sesuai pada case, maka textView nya akan diganti menyesuaikan
             case 0:liter.setText("1L");break;
             case 1:liter.setText("2L");break;
             case 2:liter.setText("3L");break;
@@ -53,27 +53,27 @@ public class Details extends AppCompatActivity {
         }
 
     }
-    public void plus(View view) {
-        if (level < 5) {
-            level++;
-            isiBotol.setImageLevel(level);
-        } else {
+    public void plus(View view) {   //method onclick untuk plus
+        if (level < 5) {    //jika level lebih kecil dari 5, maka level akan bertambah
+            level++; //iterasi ++
+            isiBotol.setImageLevel(level); //set image levenya
+        } else { //jika salah atau lebih dari 5 berarti penuh
             Context context = getApplicationContext();
             Toast toast = Toast.makeText(context, "Sudah Penuh, tidak bisa diisi", Toast.LENGTH_SHORT);
             toast.show();
         }
-        liter();
+        liter(); //  memanggil method level drawable
     }
 
-    public void minus(View view) {
-        if (level > 0) {
-            level--;
-            isiBotol.setImageLevel(level);
-        } else  {
+    public void minus(View view) { //method onclick untuk plus
+        if (level > 0) { //jika level lebih  besar 0, maka level akan bertambah
+            level--;    //iterasi ++
+            isiBotol.setImageLevel(level);  //set image levenya
+        } else  {   //jika salah atau lebih dari 0 kecil berarti penuh
             Context context = getApplicationContext();
             Toast toast = Toast.makeText(context, "Batas minimum pengisian!!", Toast.LENGTH_SHORT);
             toast.show();
         }
-        liter();
+        liter(); //  memanggil method level drawable
     }
 }

@@ -20,17 +20,17 @@ public class Login extends AppCompatActivity {
 
     }
 
-    public void masuk(View view) {
-        tUsername = (EditText) findViewById(R.id.tUsername);
-        tPass = (EditText) findViewById(R.id.tPassword);
-        String username = "EAD";
-        String pass = "MOBILE";
-        if (tUsername.getText().toString().equals(username) && tPass.getText().toString().equals(pass)){
+    public void masuk(View view) {//method onclick masuk
+        tUsername = (EditText) findViewById(R.id.tUsername); //set variable
+        tPass = (EditText) findViewById(R.id.tPassword); //set variable
+        String username = "EAD"; //set variable username EAD
+        String pass = "MOBILE"; //set variable pass MOBILE
+        if (tUsername.getText().toString().equals(username) && tPass.getText().toString().equals(pass)){ //jika username && (dan) password sesuai
             Intent i = new Intent(this, ContentMenu.class);
-            startActivity(i);
+            startActivity(i); //jika berhasil start activity
 
-        }else {
-            Toast.makeText(this, tPass.getText(), Toast.LENGTH_SHORT).show();
+        }else { //jika salah akan menampilkan Toast
+            Toast.makeText(this,"Username/PAssword Salah!!" , Toast.LENGTH_SHORT).show();
 
         }
 

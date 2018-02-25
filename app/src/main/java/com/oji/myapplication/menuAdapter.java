@@ -33,7 +33,7 @@ public class menuAdapter extends RecyclerView.Adapter<menuAdapter.MyViewHolder> 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View mItemView = mInflater.inflate(R.layout.manu_list, parent, false);
-
+                                                                                            //method untuk menginflate dengan class lainnya
         return new MyViewHolder(mItemView);
     }
 
@@ -41,7 +41,7 @@ public class menuAdapter extends RecyclerView.Adapter<menuAdapter.MyViewHolder> 
     public void onBindViewHolder(MyViewHolder holder, int position) {
 
         menu menu = menuList.get(position);
-        holder.details.setText(menu.getHarga());            //get value ke textView
+        holder.details.setText(menu.getDetails());            //get value ke textView
         holder.nama.setText(menu.getNama());
         holder.layout.setBackgroundResource(menu.getGambar());
 
@@ -61,9 +61,9 @@ public class menuAdapter extends RecyclerView.Adapter<menuAdapter.MyViewHolder> 
 
         public MyViewHolder(View view) {
             super(view);//menginisiasi variable2 attribute
-            nama = (TextView) view.findViewById(R.id.nama);
-            details = (TextView) view.findViewById(R.id.details);
-            layout = (ConstraintLayout) view.findViewById(R.id.layout_background);
+            nama = (TextView) view.findViewById(R.id.nama); //menginisiasi variable2 attribute
+            details = (TextView) view.findViewById(R.id.details);//menginisiasi variable2 attribute
+            layout = (ConstraintLayout) view.findViewById(R.id.layout_background);//menginisiasi variable2 attribute
 
             view.setOnClickListener(this);
         }
@@ -79,10 +79,10 @@ public class menuAdapter extends RecyclerView.Adapter<menuAdapter.MyViewHolder> 
             int gambar = menuList.get(mPosition).getGambar();
             String komposisi = menuList.get(mPosition).getKomposisi();
             i.putExtra("gambar", gambar);      // put extra ke intent berikutnya
-            i.putExtra("nama", nama.getText());
-            i.putExtra("details", details.getText());
-            i.putExtra("komposisi", komposisi);
-            view.getContext().startActivity(i);
+            i.putExtra("nama", nama.getText()); // put extra ke intent berikutnya
+            i.putExtra("details", details.getText()); // put extra ke intent berikutnya
+            i.putExtra("komposisi", komposisi); // put extra ke intent berikutnya
+            view.getContext().startActivity(i); //jalankan activity berikutnya
 
         }
     }

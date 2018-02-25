@@ -6,16 +6,16 @@ package com.oji.myapplication;
 
 public class menu {
     private int gambar ;
-    private String nama, harga, komposisi;
+    private String nama, details, komposisi;
     public menu(int gambar, String nama, String komposisi, String harga ) {
         this.gambar = gambar;
         this.nama = nama;
-        this.harga = harga;
+        this.details = harga;
         this.komposisi = komposisi;
     }
 
-    public String getHarga() {
-        return harga;
+    public String getDetails() {
+        return details;
     }
 
     public String getNama() {
@@ -34,7 +34,7 @@ public class menu {
     }
 
     public void setHarga(String harga) {
-        this.harga = harga;
+        this.details = harga;
     }
 
     public void setNama(String nama) {
